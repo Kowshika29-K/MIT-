@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image:url(images/bg-intro-desktop.png);
+    background-color:hsl(0, 100%, 74%);
+  
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightcontent{
+    margin-top: 150px;
+    padding-right: 30px;
+}
+.rightcontent h2{
+    color: white;
+    width: 300px;
+    font-size: 40px;
+}
+.rightcontent p{
+    width: 450px;
+    font-size: 16px;
+    color: white;
+    padding-top: 20px;
+}
+.leftcontent{
+    margin-top: 120px;
+}
+.try button{
+background-color:  hsl(248, 32%, 49%);
+color: white;
+border-style: none;
+padding:15px 68px;
+border-radius: 10px;
+box-shadow: 0px 5px 10px rgb(122, 120, 120);
+}
+.try button:hover{
+    cursor: pointer;
+}
+.form{
+   width: 350px;
+   height: 350px; 
+   background-color: white;
+   padding-left: 30px;
+   padding-top: 20px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+.form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 120px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+.form p{
+    margin-left: 180px;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+.form button{
+    border-style: none;
+    background-color:  hsl(154, 59%, 51%);
+    color: white;
+    padding: 10px 75px;
+    border-radius: 5px;
+}
+.form h6{
+    color: hsl(249, 10%, 26%);
+    font-size: 8px;
+    margin-left: 45px;
+}
+.form span{
+    color: red;
+}
+.form button:hover{
+    cursor: pointer;
+}
+
+
